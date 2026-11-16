@@ -20,6 +20,22 @@ body {
     line-height: 1.6;
 }
 
+.flex {
+    background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: #abb;
+    display: grid;
+    place-items: center;
+}
+
+
+
+
 header, main, footer {
     width : 840px;
     margin : 0 auto;
