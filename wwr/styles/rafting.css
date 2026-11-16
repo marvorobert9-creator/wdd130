@@ -203,6 +203,16 @@ a:hover {
   background-color: var(--accent-color2);
 }
 
+#history {
+  display: grid;
+  grid-template-columns: 1fr 140px 1fr;
+  gap: 1rem;
+}
+
+#history h2 {
+  grid-column: 1 / -1;
+}
+
 @media (max-width: 39.999rem) {
   header, main, footer {
     width: calc(100% - 2rem);
