@@ -213,6 +213,13 @@ a:hover {
   grid-column: 1 / -1;
 }
 
+#history img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 0.25rem;
+}
+
 @media (max-width: 39.999rem) {
   header, main, footer {
     width: calc(100% - 2rem);
