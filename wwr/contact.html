@@ -35,10 +35,13 @@
 
                 <fieldset>
                     <legend>What is your message about?</legend>
-                    <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                    <label><input type="radio" id="purpose-general" name="purpose" value="general"> General Inquiry</label>
                     <label><input type="radio" name="purpose" value="booking"> Booking Request</label>
                     <label><input type="radio" name="purpose" value="other"> Other</label>
                 </fieldset>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
 
                 <button type="submit">Send Message</button>
             </form>
