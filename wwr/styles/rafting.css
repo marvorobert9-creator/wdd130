@@ -233,6 +233,11 @@ a:hover {
   gap: 0.75rem;
 }
 
+main iframe {
+  border: 0;
+  max-width: 100%;
+}
+
 @media (max-width: 39.999rem) {
   header, main, footer {
     width: calc(100% - 2rem);
