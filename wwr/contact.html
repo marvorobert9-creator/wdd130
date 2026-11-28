@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abigaba Marvin">
+    <meta name="description" content="Contact our white water rafting company for inquiries, bookings, and more information about our thrilling river adventures.">
+    <title>Contact Us | White Water Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Logo, Please enjoy the ride and come again soon!" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <fieldset>
+                    <legend>What is your message about?</legend>
+                    <label><input type="radio" name="purpose" value="general"> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="booking"> Booking Request</label>
+                    <label><input type="radio" name="purpose" value="other"> Other</label>
+                </fieldset>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.436447159975!2d32.61556485632312!3d0.34548219174024936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb910ba363d1%3A0x64b4da4382891f5f!2sThe%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints!5e0!3m2!1sen!2sug!4v1795830492894!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+
+    </main>
+    <footer>
+        <p>&copy; 2026 White Water Rafting Company. All rights reserved.</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.svg" alt="Face book icon">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="images/linkedin-square.svg" alt="Linkedin icon">
+            </a>
+            <a href="https://www.youtube.com">
+                <img src="images/youtube.svg" alt="YouTube icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
